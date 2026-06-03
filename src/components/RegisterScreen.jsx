@@ -17,7 +17,7 @@ export default function RegisterScreen({ onNavigateToLogin }) {
 
     try {
       // Calls your Express register endpoint
-      await axios.post('http://localhost:5000/api/auth/register', {
+      await axios.post('https://creditcardbackend-1.onrender.com/api/auth/register', {
         name: formData.name,
         email: formData.email,
         password: formData.password,
