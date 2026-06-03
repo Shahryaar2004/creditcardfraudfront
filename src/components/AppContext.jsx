@@ -5,7 +5,7 @@ import axios from 'axios';
 const AppContext = createContext();
 
 // Base backend API URL configuration
-const API_URL = 'https://creditcardbackend-pn7z.onrender.com/api';
+const API_URL = 'https://creditcardbackend-1.onrender.com/api';
 
 export const AppProvider = ({ children }) => {
   const [currentRole, setCurrentRole] = useState('Admin'); // Admin, Analyst, Customer
