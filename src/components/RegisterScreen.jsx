@@ -16,13 +16,13 @@ export default function RegisterScreen({ onNavigateToLogin }) {
     setIsLoading(true);
 
     try {
-      // Calls your Express register endpoint
-      await axios.post('https://creditcardbackend-1.onrender.com/api/auth/register', {
-        name: formData.name,
-        email: formData.email,
-        password: formData.password,
-        role: formData.role
-      });
+  // ✅ Change this line to use your exact live Render link structure:
+  await axios.post('https://creditcardbackend-1.onrender.com/api/auth/register', {
+    name: formData.name,
+    email: formData.email,
+    password: formData.password,
+    role: formData.role
+  });
       
       setSuccessMsg('Identity provisioned successfully! Redirecting to gateway login...');
       setTimeout(() => {
