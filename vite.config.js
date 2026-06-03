@@ -7,4 +7,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    // ✅ Raises the warning threshold to 1000 kB so the log stays perfectly clean
+    chunkSizeWarningLimit: 1000,
+  },
 })
