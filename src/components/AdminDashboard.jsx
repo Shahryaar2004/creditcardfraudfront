@@ -26,7 +26,7 @@ export default function AdminDashboard() {
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-slate-900 p-4 border border-slate-800 rounded-xl flex items-center gap-2">
             <Terminal size={18} className="text-emerald-400" />
-            <h3 className="font-semibold text-sm text-slate-200">Live Database Pipeline Transaction Logs</h3>
+            <h3 className="font-semibold text-sm text-slate-200">Live Database Pipeline Transactions Logs</h3>
           </div>
 
           <div className="space-y-3 max-h-[450px] overflow-y-auto pr-1 custom-scrollbar">
