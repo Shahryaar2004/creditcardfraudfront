@@ -26,7 +26,7 @@ export default function AdminDashboard() {
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-slate-900 p-4 border border-slate-800 rounded-xl flex items-center gap-2">
             <Terminal size={18} className="text-emerald-400" />
-            <h3 className="font-semibold text-sm text-slate-200">Live Database Pipeline Transaction Log</h3>
+            <h3 className="font-semibold text-sm text-slate-200">Live Database Pipeline Transaction Logs</h3>
           </div>
 
           <div className="space-y-3 max-h-[450px] overflow-y-auto pr-1 custom-scrollbar">
@@ -58,7 +58,7 @@ export default function AdminDashboard() {
         <div className="space-y-6">
           {/* Recharts Pie Chart Block */}
           <div className="bg-slate-900 border border-slate-800 rounded-xl p-5">
-            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">Risk Matrix Allocation</h4>
+            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">Risk Matrix Allocations</h4>
             <div className="h-48 w-full">
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
