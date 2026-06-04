@@ -28,7 +28,7 @@ export default function AnalystWorkspace() {
           </div>
           <h3 className="text-lg font-semibold text-white">Triage Queue Cleared</h3>
           <p className="text-sm text-slate-400 mt-2">
-            The database reports zero pending anomalies requiring manual validation.
+            The database reports zero pending anomalies requiring manual validations.
           </p>
         </div>
       ) : (
